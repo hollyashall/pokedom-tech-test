@@ -10,12 +10,8 @@ import pokemonArray from "./data/pokemon.js";
   // need to add in the second type of pokemon separated by & when this exists
   // do a function for pokemonType which I can use in my literal template
 
-const pokemonType = (type) =>{
-  if (type.length == 1) {
-    return type[0]
-  } 
-  else {return `${type[0]} & ${type[1]}`}  
-}
+// const pokemonType = (type) =>{
+
 
 // cards which render details
 
