@@ -12,6 +12,8 @@ import pokemonArray from "./data/pokemon.js";
 
 // const pokemonType = (type) =>{
 
+//if has one type
+//else has two types
 
 // cards which render details
 
