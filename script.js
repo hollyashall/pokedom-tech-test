@@ -7,8 +7,8 @@ import pokemonArray from "./data/pokemon.js";
 
  pokemonArray.forEach(entry =>{
   containers.innerHTML +=  `<div class="container"> 
-  <img> </img>
-  <p>${entry.id}</p><p>${entry.name}</p><p>${entry.types}</p><p>${entry.sprite}</p>
+  <img class="images" src="${entry.sprite}"> </img>
+  <p>${entry.id}</p><p>${entry.name}</p><p>${entry.types}</p></p>
    </div>`
  })
 
