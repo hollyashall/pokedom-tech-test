@@ -1,11 +1,15 @@
 
+//global variables
 const containers =document.querySelector(".card-container")
 
+//importing the array
 import pokemonArray from "./data/pokemon.js";
 
 
-// need to add in the second type of pokemon separated by & when this exists
-// do a function for pokemonType which I can use in my literal template
+//TYPE of pokemon
+  // need to add in the second type of pokemon separated by & when this exists
+  // do a function for pokemonType which I can use in my literal template
+
 const pokemonType = (type) =>{
   if (type.length == 1) {
     return type[0]
@@ -13,6 +17,7 @@ const pokemonType = (type) =>{
   else {return `${type[0]} & ${type[1]}`}  
 }
 
+// cards which render details
 
 const renderContainers = (pokemonObject) =>{
   
@@ -31,6 +36,13 @@ renderContainers(pokemonArray)
 
 
 // adding ability to search
+const input = document.querySelector(".myInput")
+const heaadings = document.querySelector("name")
 
+//^ have not figured out how to get the names
 
- 
+//make a loop that looks through the names
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
