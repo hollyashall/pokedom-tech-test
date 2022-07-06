@@ -14,7 +14,6 @@ const pokemonType = (type) =>{
 }
 
 
-
 const renderContainers = (pokemonObject) =>{
   
   pokemonArray.forEach(entry =>{
@@ -31,5 +30,7 @@ renderContainers(pokemonArray)
 // using the forEach to loop through the array and put the pokemon details onto the container
 
 
+// adding ability to search
 
 
+ 
