@@ -23,13 +23,10 @@ const renderContainers = (pokemonObject) =>{
     <h2>${entry.name.charAt(0).toUpperCase()}${entry.name.slice(1)}</h2>
    <p class="card__text"> ${entry.name.charAt(0).toUpperCase()}${entry.name.slice(1)}(#${entry.id}) is a ${pokemonType(entry.types)} pokemon</p>
      </div>`
-     
    })
-   
 }
 
 renderContainers(pokemonArray)
-
 
 // using the forEach to loop through the array and put the pokemon details onto the container
 
