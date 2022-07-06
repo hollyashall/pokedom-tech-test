@@ -25,7 +25,7 @@ const renderContainers = (pokemonObject) =>{
     containers.innerHTML +=  `<div class="card-container"> 
     <img class="images" src="${entry.sprite}"> </img>
     <h2>${entry.name.charAt(0).toUpperCase()}${entry.name.slice(1)}</h2>
-   <p class="card__text"> ${entry.name.charAt(0).toUpperCase()}${entry.name.slice(1)}(#${entry.id}) is a ${pokemonType(entry.types)} pokemon</p>
+   <p class="card__text"> ${entry.name.charAt(0).toUpperCase()}${entry.name.slice(1)}(#${entry.id}) is a ${(entry.types)} pokemon</p>
      </div>`
    })
 }
